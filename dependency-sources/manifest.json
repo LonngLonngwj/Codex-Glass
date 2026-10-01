@@ -1,0 +1,72 @@
+[
+  {
+    "file": "pyqt6-6.11.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/8b/47/b25c13eca5bebc6505394d0223e46d7ebf0c57dcac2ed908d7d19b18ab6b/pyqt6-6.11.0.tar.gz",
+    "sha256": "45dd60aa69976de1918b5ced6b4e7b6a25abd2a919ecef5fd5826ecc76718889",
+    "component": "PyQt6",
+    "version": "6.11.0"
+  },
+  {
+    "file": "pyqt6_sip-13.12.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/d1/23/16c583dbb6b53e0494dfcf7d1a44778c82e324edda62326727b37f1a5b34/pyqt6_sip-13.12.0.tar.gz",
+    "sha256": "a7ad45c1e3cec3a2473d37ea9870b6c3baeccc560298623c8eb59265714c06e2",
+    "component": "PyQt6-sip",
+    "version": "13.12.0"
+  },
+  {
+    "file": "psutil-7.2.2.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/aa/c6/d1ddf4abb55e93cebc4f2ed8b5d6dbad109ecb8d63748dd2b20ab5e57ebe/psutil-7.2.2.tar.gz",
+    "sha256": "0746f5f8d406af344fd547f1c8daa5f5c33dbc293bb8d6a16d80b4bb88f59372",
+    "component": "psutil",
+    "version": "7.2.2"
+  },
+  {
+    "file": "pyinstaller-6.22.3.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/63/41/f90302845945abd4ed647933ff5ee7c6ac93983187be67f897b6cb613331/pyinstaller-6.22.3.tar.gz",
+    "sha256": "05eb2f5615503e72939a7224d68b4aff572c6b0438ee4a17d0a4b481f399362d",
+    "component": "PyInstaller",
+    "version": "6.22.3"
+  },
+  {
+    "file": "qtbase-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtbase-everywhere-src-6.11.2.tar.xz",
+    "sha256": "5b2e00eccaf5a4d8c14134ffa0ea8dfd0a35ae1ffc7f8d87fa4305a1ed23cf22",
+    "component": "qtbase",
+    "version": "6.11.2"
+  },
+  {
+    "file": "qtdeclarative-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtdeclarative-everywhere-src-6.11.2.tar.xz",
+    "sha256": "215b7b70517e380123eabc6b92243f3c47b6f016a91d126057dbe53551c6b430",
+    "component": "qtdeclarative",
+    "version": "6.11.2"
+  },
+  {
+    "file": "qtsvg-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtsvg-everywhere-src-6.11.2.tar.xz",
+    "sha256": "d594337feca84c26fb67fe87b85e6a5c12fda404b611d905f9d138210c311876",
+    "component": "qtsvg",
+    "version": "6.11.2"
+  },
+  {
+    "file": "qtshadertools-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtshadertools-everywhere-src-6.11.2.tar.xz",
+    "sha256": "805046b8b7757665586890b375940047e874ae3ab00adb6d3f2b38fc6b200b1c",
+    "component": "qtshadertools",
+    "version": "6.11.2"
+  },
+  {
+    "file": "qtimageformats-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtimageformats-everywhere-src-6.11.2.tar.xz",
+    "sha256": "cecd8900f34b6550076309bc94f62f828008b633a4239e0a08c86788f41001f8",
+    "component": "qtimageformats",
+    "version": "6.11.2"
+  },
+  {
+    "file": "qttranslations-everywhere-src-6.11.2.tar.xz",
+    "url": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qttranslations-everywhere-src-6.11.2.tar.xz",
+    "sha256": "021684c1a7937a9fabc3b056a6698ad5978794caf9ac190fd6cc11399e67c014",
+    "component": "qttranslations",
+    "version": "6.11.2"
+  }
+]

@@ -1,0 +1,45 @@
+/* Tokens for a future web/Tauri port. The runnable app uses one Qt Quick
+   alpha window; no system Acrylic backplate or desktop backdrop blur. */
+:root {
+  --card-size: 200px;
+  --card-radius: 28.33px;
+  --card-padding: 19.17px;
+  --top: rgba(220, 234, 242, .97);
+  --bottom: rgba(238, 244, 236, .97);
+  --ink: #171d1c;
+  --muted: #667270;
+  --accent: #4386c2;
+  --accent-end: #9eb7dd;
+}
+.quota-card {
+  width: var(--card-size);
+  height: var(--card-size);
+  box-sizing: border-box;
+  padding: var(--card-padding);
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--top), var(--bottom));
+  border: 1px solid rgba(255, 255, 255, .6);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .10),
+              inset 0 1px 1px rgba(255, 255, 255, .6);
+  color: var(--ink);
+  font-family: -apple-system, "Segoe UI Variable", "Segoe UI", "PingFang SC", sans-serif;
+}
+.quota-value { display: flex; align-items: baseline; gap: 1px; }
+.quota-value strong { font-size: 45px; font-weight: 400; letter-spacing: -2.08px; }
+.quota-value span { font-size: 14.17px; }
+.quota-card[data-theme="dark"] {
+  --top: rgba(39, 59, 70, .97);
+  --bottom: rgba(37, 51, 60, .97);
+  --ink: #f3f5f2;
+  --muted: #b6c2c4;
+}
+.quota-card[data-tone="cream"] { --bottom: rgba(251, 239, 206, .97); }
+.quota-card[data-tone="peach"] {
+  --top: rgba(232, 224, 221, .97); --bottom: rgba(255, 225, 190, .97);
+  --accent: #e79d59; --accent-end: #f3c085;
+}
+.quota-bubble { width: 72px; height: 72px; border-radius: 23px; }
+@media (prefers-reduced-motion: reduce) {
+  .quota-card, .quota-card * { animation: none !important; transition: none !important; }
+}
